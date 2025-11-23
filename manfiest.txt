@@ -1,0 +1,18 @@
+Project Name: Fraud Detection using PyOD AutoEncoder
+Author: Shashwat Baral (Update with your name)
+Course: MSCS 633 – Advanced Artificial Intelligence
+Tooling:
+- Python 3.10+
+- PyOD (Python Outlier Detection)
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib (optional for visualization)
+Dataset:
+- Kaggle: Credit Card Fraud Detection (https://www.kaggle.com/mlg-ulb/creditcardfraud)
+Description:
+This project implements an unsupervised anomaly detection system for credit card fraud.
+It utilizes the AutoEncoder model from the PyOD library, trained only on normal transactions
+to learn the typical data distribution. Fraudulent transactions are detected based on
+a high reconstruction loss (anomaly score) when the model attempts to reconstruct them.
+The output includes the confusion matrix and classification report on the full dataset.
